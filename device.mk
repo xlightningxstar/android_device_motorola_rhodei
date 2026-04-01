@@ -106,3 +106,5 @@ $(call inherit-product, vendor/motorola/rhodei/rhodei-vendor.mk)
 PRODUCT_COPY_FILES += \
     vendor/motorola/rhodei/proprietary/vendor/firmware/tm_novatek_ts_fw.bin:$(TARGET_COPY_OUT_VENDOR_RAMDISK)/vendor/firmware/tm_novatek_ts_fw.bin \
     vendor/motorola/rhodei/proprietary/vendor/firmware/tm_novatek_ts_mp.bin:$(TARGET_COPY_OUT_VENDOR_RAMDISK)/vendor/firmware/tm_novatek_ts_mp.bin
+    vendor/motorola/rhodei/proprietary/vendor/firmware/ili9882_ts_fw.bin:$(TARGET_COPY_OUT_VENDOR_RAMDISK)/vendor/firmware/ili9882_ts_fw.bin \
+    vendor/motorola/rhodei/proprietary/vendor/firmware/ili9882_ts_mp.bin:$(TARGET_COPY_OUT_VENDOR_RAMDISK)/vendor/firmware/ili9882_ts_mp.bin
