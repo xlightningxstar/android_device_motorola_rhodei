@@ -67,3 +67,4 @@ mmi_discrete_charger.ko
 mmi_discrete_turbo_charger.ko
 sm5350_bl.ko
 leds_aw99703.ko
+ili9882_mmi.ko
