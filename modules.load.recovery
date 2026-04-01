@@ -21,3 +21,4 @@ mmi_charger.ko
 mmi_discrete_charger_class.ko
 mmi_discrete_charger.ko
 mmi_discrete_turbo_charger.ko
+ili9882_mmi.ko
