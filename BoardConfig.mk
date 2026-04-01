@@ -16,11 +16,12 @@ TARGET_BOOTLOADER_BOARD_NAME := rhodei
 
 # HIDL
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
-ODM_MANIFEST_SKUS += b d dn n
+ODM_MANIFEST_SKUS += b d dn n XT2223-3
 ODM_MANIFEST_B_FILES := $(DEVICE_PATH)/sku/manifest_b.xml
 ODM_MANIFEST_D_FILES := $(DEVICE_PATH)/sku/manifest_d.xml
 ODM_MANIFEST_DN_FILES := $(DEVICE_PATH)/sku/manifest_dn.xml
 ODM_MANIFEST_N_FILES := $(DEVICE_PATH)/sku/manifest_n.xml
+ODM_MANIFEST_XT2223_3_FILES := $(DEVICE_PATH)/sku/manifest_XT2223-3.xml
 
 # Kernel
 BOARD_KERNEL_CMDLINE += androidboot.hab.product=rhodei
