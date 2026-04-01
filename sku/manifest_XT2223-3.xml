@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    SPDX-FileCopyrightText: The LineageOS Project
+    SPDX-License-Identifier: Apache-2.0
+-->
+<!--
+    ODM SKU manifest for Motorola moto g62 5G - XT2223-3 (India)
+    No NFC on this variant
+-->
+<manifest version="2.0" type="device">
+</manifest>
